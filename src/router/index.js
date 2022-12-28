@@ -24,7 +24,7 @@ const routes = [
     },
     {
         path:'/reuss',
-        name:'RegisterNext',
+        name:'ReussirNext',
         component:Reussir
     },
     {

@@ -2,9 +2,10 @@
   <div class="nav">
     <router-link to="/">Accueil</router-link>
     <router-link to="/register">Bienvenue</router-link>
-    <router-link to="/next">RegisterNext</router-link>
     <router-link to="/signup">Inscrire</router-link>
     <router-link to="/signin">Connexion</router-link>
+    <router-link to="/next">Attente</router-link>
+
 
   </div> <br><br> <br>
   <router-view/>
