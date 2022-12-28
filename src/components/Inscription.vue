@@ -11,7 +11,7 @@
         <label for="exampleFormControlInput1" class="form-label labelise"
           >Pays 
         </label>
-         <select name="" class="form-select taille" id="">
+         <select name="" class="form-select " id="">
             <option value="">COTE DIVOIRE</option>
             <option value="">COTE DIVOIRE</option>
             <option value="">COTE DIVOIRE</option>
@@ -29,7 +29,7 @@
         </label>
         <input
           type="text"
-          class="form-control taille"
+          class="form-control "
           id="exampleFormControlInput1"
           placeholder=""
         />
@@ -43,7 +43,7 @@
         </label>
         <input
           type="password"
-          class="form-control taille"
+          class="form-control "
           id="exampleFormControlInput1"
           placeholder=""
         />
@@ -54,7 +54,7 @@
         </label>
         <input
           type="password"
-          class="form-control taille"
+          class="form-control"
           id="exampleFormControlInput1"
           placeholder=""
         />
@@ -64,7 +64,7 @@
     <br>
     <div class="row btn g-3 d-grid gap-2 d-md-flex justify-content-md-start">
       <button class="btn btn-outline-secondary ret text-center">Retour</button>
-      <button class="btn suiv text-white">Suivant</button>
+      <button class="btn suiv text-white">Terminer</button>
     </div>
     <form class="row g-3">
       
@@ -119,8 +119,9 @@ hr {
   text-align: center;
 }
 .btn .suiv {
-background-color: #1D933F;
+background-color: #0E762C;
   width: 11%;
+  height: 50%;
   padding: 7px;
   text-align: center;
 }

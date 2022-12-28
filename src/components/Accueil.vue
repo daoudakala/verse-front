@@ -12,6 +12,7 @@
           >Nom et prénoms
         </label>
         <input
+          style=" width: 40%;"
           type="email"
           class="form-control taille"
           id="exampleFormControlInput1"
@@ -22,7 +23,8 @@
         <label for="exampleFormControlTextarea1" class="form-label labelise"
           >Adresse E-mail</label
         >
-        <input
+        <input 
+          style=" width: 40%;"
           type="email"
           class="form-control taille"
           id="exampleFormControlInput1"

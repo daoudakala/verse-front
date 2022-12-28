@@ -4,6 +4,7 @@ import RegisterNext from '../components/RegisterNext.vue';
 import Reussir from '../components/Reussir.vue'; 
 import Accueil from '../components/Accueil.vue'; 
 import Inscription from '../components/Inscription.vue'; 
+import Connexion from '../components/Connexion.vue'; 
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path:'/signup',
         name:'Inscription',
         component:Inscription
+    },
+    {
+        path:'/signin',
+        name:'Connexion',
+        component:Connexion
     }
 ]
 

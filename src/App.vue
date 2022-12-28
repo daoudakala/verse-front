@@ -4,6 +4,7 @@
     <router-link to="/register">Register</router-link>
     <router-link to="/next">RegisterNext</router-link>
     <router-link to="/signup">Inscrire</router-link>
+    <router-link to="/signin">Connexion</router-link>
 
   </div> <br><br> <br>
   <router-view/>
