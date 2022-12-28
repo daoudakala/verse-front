@@ -33,8 +33,8 @@
       </div>
     </form>
     <div class="row btn g-3 d-grid gap-2 d-md-flex justify-content-md-start">
-      <button class="btn btn-outline-secondary ret text-center">Retour</button>
-      <button class="btn suiv text-white">Suivant</button>
+      <button class="btn btn-outline-secondary ret text-center" style="display: flex; justify-content: center;  padding: 10px;">Retour</button>
+      <button class="btn suiv text-white" style="display: flex; justify-content: center; background-color: #AA7E12; padding: 10px;">Suivant</button>
     </div>
   </div>
 </template>
