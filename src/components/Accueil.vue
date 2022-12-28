@@ -30,10 +30,9 @@
         />
       </div>
     </form>
-    
-    <div class="row btn g-3">
+    <div class="row btn g-3 d-grid gap-2 d-md-flex justify-content-md-start">
       <button class="btn btn-outline-secondary ret text-center">Retour</button>
-      <button class="btn suiv text-white text-center">Suivant</button>
+      <button class="btn suiv text-white">Suivant</button>
     </div>
   </div>
 </template>
@@ -51,25 +50,38 @@ div .taille {
 
 .titre {
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 38px;
 }
 hr {
   width: 55%;
-  background-color: #131312;
+  color: #000;
   margin-top: 15px;
 }
 .labelise {
-  font-weight: bold;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
 }
 
 .btn {
   display: flex;
 }
+
 .btn .ret {
-  width: 10%;
+  width: 11%;
+  padding: 7px;
+  text-align: center;
 }
 .btn .suiv {
-  background-color: #b9b308;
-  width: 10%;
+  background-color: #BF7B0B;
+  width: 11%;
+  padding: 7px;
+  text-align: center;
+
 }
 </style>

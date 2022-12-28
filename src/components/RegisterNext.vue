@@ -22,7 +22,7 @@
           </select>
           
         </div>
-        <div class="row-span-3">
+        <div class="row-span-3 btn-gen">
           <label for="" class="block text-start px-10 font-bold text-gray-700"
             >Ville</label
           >

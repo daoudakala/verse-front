@@ -3,6 +3,8 @@
     <router-link to="/">Accueil</router-link>
     <router-link to="/register">Register</router-link>
     <router-link to="/next">RegisterNext</router-link>
+    <router-link to="/signup">Inscrire</router-link>
+
   </div> <br><br> <br>
   <router-view/>
 

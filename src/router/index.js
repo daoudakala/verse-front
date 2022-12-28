@@ -3,6 +3,7 @@ import Register from '../components/Register.vue';
 import RegisterNext from '../components/RegisterNext.vue'; 
 import Reussir from '../components/Reussir.vue'; 
 import Accueil from '../components/Accueil.vue'; 
+import Inscription from '../components/Inscription.vue'; 
 
 const routes = [
     {
@@ -24,6 +25,11 @@ const routes = [
         path:'/reuss',
         name:'RegisterNext',
         component:Reussir
+    },
+    {
+        path:'/signup',
+        name:'Inscription',
+        component:Inscription
     }
 ]
 
