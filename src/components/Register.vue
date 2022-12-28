@@ -1,33 +1,101 @@
 <template>
-  <div class="container">
-    <p class=" block px-7 text-xl font-bold mb-4 text-start">Remplissez vos informations afin de procéder au tirage de verset</p>
-    <hr />
-    <form action="" class=" ">
-      <div class="mt-6">
-        <label for="" class="block text-start px-10 font-bold text-gray-700"
-          >Nom et prénoms</label
-        >
-        <div class="mt-1 mx-5 px-5">
-          <input type="text" class="w-1/3 flex flex-initial border border-gray-300 px-3 py-2 rounded-lg shadow-sm 
-          focus:outline-one focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" />
-        </div>
-        <br />
-        <label for="" class="block text-start px-10 font-bold text-gray-700">Adresse E-mail</label>
-        <div class="mx-5 px-5">
-          <input type="email" placeholder="facultatif" class="w-1/3 flex flex-initial border border-gray-300 px-3 py-2 rounded-lg shadow-sm 
-          focus:outline-one focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" />
-        </div>
-        <div class="row mx-10 flex flex-1  gap-3">
-            <button class="border-2 border-slate-500 mt-5 w-2/12 px-3 py-2 rounded-sm ">Retour </button>
-            <button class="bg-yellow-500  w-2/12 mt-5 px-3 py-2 rounded-md text-white text-xl">Suivant </button>
-        </div>
+    <div class="container">
+      <div>
+        <p class="titre">Bienvenue au tirage  de verset </p>
+        <p class="titre">de l'année Réussir 2023</p>
       </div>
-    </form>
-  </div>
-</template>
+      <br />
+      <form class="row">
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label labelise"
+          >N° de téléphone
+        </label>
+        <div class="input-group" style="width: 30%;">
+          <span
+            class="input-group-text"
+            id="basic-addon1"
+            style="background-color: #fff"
+          >
+            <select name="" id="">
+              <option value="">+225</option>
+              <option value="">+225</option>
+              <option value="">+225</option>
+              <option value="">+225</option>
+              <option value="">+225</option>
+              <option value="">+225</option>
+              <option value="">+225</option>
+            </select>
+          </span>
+          <input
+            style="width:30%;"
+            type="text"
+            class="form-control taille"
+            id="exampleFormControlInput1"
+            placeholder=""
+          />
+        </div>
+          </div>
 
-<script>
-export default {
-  name: "RegisterAccount",
-};
-</script>
+        
+        <div class="connecter">
+          <button class="btn btn-success text-center"  style="width: 30%; padding: 10px; display: flex; justify-content: center; background-color: #AA7E12; border:none;"> Se Connecter</button>
+        </div> 
+      </form>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    name: "AccueilNext",
+  };
+  </script>
+  
+  <style>
+  div .taille {
+    width: 40%;
+  }
+  
+  .titre {
+    color: #3E714D;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 38px;
+  }
+  hr {
+    width: 55%;
+    color: #000;
+    margin-top: 15px;
+  }
+  .connecter{
+      margin-top: 20px;
+  }
+  .bouger{
+      margin-left: 1em;
+  }
+  .labelise {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+  }
+  
+  .btn {
+    display: flex;
+  }
+  
+  .btn .ret {
+    width: 11%;
+    padding: 7px;
+    text-align: center;
+  }
+  .btn .suiv {
+    background-color: #bf7b0b;
+    width: 11%;
+    padding: 7px;
+    text-align: center;
+  }
+  </style>
+  

@@ -73,7 +73,7 @@
         </label>
       </div>
       <div class="connecter">
-        <button class="btn btn-success text-center"  style="width: 40%; padding: 10px;"> Se Connecter</button>
+        <button class="btn btn-success text-center"  style="width: 40%; padding: 10px; display: flex; justify-content: center; background-color: #AA7E12; border:none;"> Se Connecter</button>
       </div> 
     </form>
   </div>
